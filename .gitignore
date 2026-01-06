@@ -1,0 +1,57 @@
+# Visual Studio IDE and Project
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+Cpp Python Plus/
+
+# Visual Studio Compilation
+x64/
+x86/
+[Ww]in32/
+[Dd]ebug/
+[Rr]elease/
+[Rr]elease_Linux/
+[Dd]ebug_Linux/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+.vscode-insiders/
+
+# Compilation artifacts
+*.obj
+*.ilk
+*.pdb
+*.lib
+*.dll
+*.exe
+*.exp
+*.idb
+*.pdb
+*.aps
+*.ncb
+*.opendb
+*.plg
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.out
+*.o
+*.so
+*.dylib
