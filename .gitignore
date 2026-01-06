@@ -55,3 +55,8 @@ x86/
 *.o
 *.so
 *.dylib
+
+# Other
+tmp/
+temp/
+test/

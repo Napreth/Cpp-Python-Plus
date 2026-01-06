@@ -1,0 +1,18 @@
+// Copyright (c) Napreth (github.com/Napreth)
+// SPDX-License-Identifier: MIT
+
+#pragma once
+
+#include "_configuration/compiler.h"
+#include "_configuration/language.h"
+
+#define CPYP_NAMESPACE cpyp
+#define CPYP_DETAIL_NAMESPACE CPYP_NAMESPACE::_cpyp_detail
+
+#define CPYP_BEGIN namespace CPYP_NAMESPACE {
+#define CPYP_END }
+
+#define CPYP_DETAIL_BEGIN namespace CPYP_DETAIL_NAMESPACE {
+#define CPYP_DETAIL_END }
+
+#define CPYP_EXPORT_FROM_DETAIL(x) using ::CPYP_DETAIL_NAMESPACE::x
